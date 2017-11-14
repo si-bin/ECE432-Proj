@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1510366762">
+  <File Type="PA-TCL" Name="top.tcl"/>
+  <File Type="REPORTS-TCL" Name="top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="top.vds"/>
+  <File Type="RDS-UTIL" Name="top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../432L-1/432L-1.srcs/sources_1/new/top.v"/>
+        <Attr Name="ImportTime" Val="1510366754"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/testbench/utils.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/testbench/utils.vhd"/>
+        <Attr Name="ImportTime" Val="1510104544"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/dataregfile_rtl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/dataregfile_rtl.vhd"/>
+        <Attr Name="ImportTime" Val="1510104542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/432-1/prog_mem.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/432-1/prog_mem.vhd"/>
+        <Attr Name="ImportTime" Val="1510115519"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/biufsm_fsm.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/biufsm_fsm.vhd"/>
+        <Attr Name="ImportTime" Val="1510104541"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/a_table.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/a_table.vhd"/>
+        <Attr Name="ImportTime" Val="1510104541"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/formatter_struct.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/formatter_struct.vhd"/>
+        <Attr Name="ImportTime" Val="1510104542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/432-1/system_main.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/432-1/system_main.vhd"/>
+        <Attr Name="ImportTime" Val="1510116615"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/biu_struct.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/biu_struct.vhd"/>
+        <Attr Name="ImportTime" Val="1510104541"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/cpu86instr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/cpu86instr.vhd"/>
+        <Attr Name="ImportTime" Val="1510104541"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/m_table.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/m_table.vhd"/>
+        <Attr Name="ImportTime" Val="1510104542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/r_table.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/r_table.vhd"/>
+        <Attr Name="ImportTime" Val="1510104542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/divider_rtl_ser.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/divider_rtl_ser.vhd"/>
+        <Attr Name="ImportTime" Val="1510104542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/regshiftmux_regshift.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/regshiftmux_regshift.vhd"/>
+        <Attr Name="ImportTime" Val="1510104542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/432-1/pic.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/432-1/pic.vhd"/>
+        <Attr Name="ImportTime" Val="1510115632"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/d_table.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/d_table.vhd"/>
+        <Attr Name="ImportTime" Val="1510104542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/proc_rtl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/proc_rtl.vhd"/>
+        <Attr Name="ImportTime" Val="1510104542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/datapath_struct.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/datapath_struct.vhd"/>
+        <Attr Name="ImportTime" Val="1510104542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/n_table.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/n_table.vhd"/>
+        <Attr Name="ImportTime" Val="1510104542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/alu_rtl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/alu_rtl.vhd"/>
+        <Attr Name="ImportTime" Val="1510104541"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/ipregister_rtl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/ipregister_rtl.vhd"/>
+        <Attr Name="ImportTime" Val="1510104542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/multiplier_rtl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/multiplier_rtl.vhd"/>
+        <Attr Name="ImportTime" Val="1510104542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/cpu86pack.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/cpu86pack.vhd"/>
+        <Attr Name="ImportTime" Val="1510104541"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/segregfile_rtl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/segregfile_rtl.vhd"/>
+        <Attr Name="ImportTime" Val="1510104542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/cpu86_rtl/cpu86_struct.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/cpu86/cpu86/cpu86_rtl/cpu86_struct.vhd"/>
+        <Attr Name="ImportTime" Val="1510104541"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clkdiv.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../432L-1/432L-1.srcs/sources_1/new/clkdiv.v"/>
+        <Attr Name="ImportTime" Val="1510285608"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_dbg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../432L-1/432L-1.srcs/sources_1/new/top_dbg.v"/>
+        <Attr Name="ImportTime" Val="1510365412"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/system.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../432L-1/432L-1.srcs/sources_1/new/system.v"/>
+        <Attr Name="ImportTime" Val="1510365470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux_8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../432L-1/432L-1.srcs/sources_1/new/mux_8.v"/>
+        <Attr Name="ImportTime" Val="1510297348"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/latch.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../432L-1/432L-1.srcs/sources_1/new/latch.v"/>
+        <Attr Name="ImportTime" Val="1510299425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/i8255dbg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../432L-1/432L-1.srcs/sources_1/new/i8255dbg.v"/>
+        <Attr Name="ImportTime" Val="1510358804"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/DL/Nexys-4-DDR-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="H:/DL/Nexys-4-DDR-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1510284019"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/DL/Nexys-4-DDR-Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

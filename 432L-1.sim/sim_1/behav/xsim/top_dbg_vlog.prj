@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../432L-1.srcs/sources_1/new/top.v" \
+"../../../../432L-1.srcs/sources_1/new/clkdiv.v" \
+"../../../../432L-1.srcs/sources_1/new/top_dbg.v" \
+"../../../../432L-1.srcs/sources_1/new/system.v" \
+"../../../../432L-1.srcs/sources_1/new/mux_8.v" \
+"../../../../432L-1.srcs/sources_1/new/latch.v" \
+"../../../../432L-1.srcs/sources_1/new/i8255dbg.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

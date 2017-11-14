@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX4
+Size               2M
+Start Address      0x00000000
+End Address        0x001FFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x000D98EF    Nov 10 18:22:27 2017    C:/Users/Josh/432L-1/432L-1.runs/impl_1/top.bit

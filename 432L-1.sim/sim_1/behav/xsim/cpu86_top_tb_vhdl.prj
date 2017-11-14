@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../432L-1.srcs/sources_1/imports/testbench/utils.vhd" \
+"../../../../432L-1.srcs/sources_1/imports/testbench/sram.vhd" \
+"../../../../432L-1.srcs/sources_1/imports/testbench/tester_behaviour.vhd" \
+"../../../../432L-1.srcs/sources_1/imports/testbench/uartrx.vhd" \
+"../../../../432L-1.srcs/sources_1/imports/testbench/uarttx.vhd" \
+"../../../../432L-1.srcs/sources_1/imports/testbench/cpu86_top_tb_struct.vhd" \
+
+# Do not sort compile order
+nosort

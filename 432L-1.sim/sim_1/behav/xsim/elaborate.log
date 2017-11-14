@@ -1,0 +1,41 @@
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto fc638a4a21df4f1a9090dcd7649502c8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_dbg_behav xil_defaultlib.top_dbg xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.cpu86pack
+Compiling package xil_defaultlib.cpu86instr
+Compiling package ieee.numeric_std
+Compiling architecture fsm of entity xil_defaultlib.biufsm [biufsm_default]
+Compiling architecture rtl of entity xil_defaultlib.a_table [a_table_default]
+Compiling architecture rtl of entity xil_defaultlib.d_table [d_table_default]
+Compiling architecture rtl of entity xil_defaultlib.m_table [m_table_default]
+Compiling architecture rtl of entity xil_defaultlib.n_table [n_table_default]
+Compiling architecture rtl of entity xil_defaultlib.r_table [r_table_default]
+Compiling architecture struct of entity xil_defaultlib.formatter [formatter_default]
+Compiling architecture regshift of entity xil_defaultlib.regshiftmux [regshiftmux_default]
+Compiling architecture struct of entity xil_defaultlib.biu [biu_default]
+Compiling architecture rtl_ser of entity xil_defaultlib.divider [divider_default]
+Compiling architecture rtl of entity xil_defaultlib.multiplier [multiplier_default]
+Compiling architecture rtl of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture rtl of entity xil_defaultlib.dataregfile [dataregfile_default]
+Compiling architecture rtl of entity xil_defaultlib.ipregister [ipregister_default]
+Compiling architecture rtl of entity xil_defaultlib.segregfile [segregfile_default]
+Compiling architecture struct of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture rtl of entity xil_defaultlib.proc [proc_default]
+Compiling architecture struct of entity xil_defaultlib.cpu86 [cpu86_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [rom_default]
+Compiling architecture rtl of entity xil_defaultlib.I82C55 [i82c55_default]
+Compiling module xil_defaultlib.system
+Compiling module xil_defaultlib.top_dbg
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_dbg_behav
