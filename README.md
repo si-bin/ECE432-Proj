@@ -2,7 +2,7 @@
 Project for ECE432 - Intel 8086 based uComputer
 
 # License
-NOTE: This is NOT provided with detailed license details. This is for a class project and I do not intend to audit license details since they are irrelevant for the scope of the class.
+NOTE: This is NOT provided with detailed license details. This is for a class project and I do not intend to audit license details since they are irrelevant for the scope of the class. This is not intended to be a 'release' of my code, it is merely a way to archive and track it. I will eventually move it to a private GitLab instance.
 
 # Module Sources
 
